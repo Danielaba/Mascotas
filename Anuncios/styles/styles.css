@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* Nav */
+.navegador{
+    background-color: #212D29;
+    padding-left: 10px;
+}
+
+.fa-paw{
+    color: #9cb37f;
+    font-size: 30px;
+}
+
+.opciones{
+    color: #85b448;
+}
+
+.opciones:hover{
+    color: #85b448;
+    text-shadow: 0 0 2px white;
+} 
+
+/* Fin Nav */
+
+
+/* Header */
+
+header .imagen-fondo{
+    background-image: url(/Anuncios/img/Peridicooo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    background-attachment: fixed;
+}
+
+header .parrafo{
+    height: 90vh;
+    width: 100vw; 
+    background: linear-gradient(90deg, rgba(217, 255, 0, 0.37) 0%, rgba(101, 255, 209, 0.507) 40%, rgba(22, 163, 34, 0.808) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+header .parrafo .centro{
+    width: 35%;
+    height: 20%;
+    padding: 30px;    
+}
+
+header .parrafo .centro h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ccff89;
+    text-shadow: 0 0 5px #437700;
+    color: white;
+}
+
+header .parrafo .centro p{
+    font-size: 25px;
+    text-align: center;
+    color: #ccff89;
+    text-shadow: 0 0 5px #437700;
+    color: white;
+}
+/* Fin Header */
+
+
+/* Contenedor 1 */
+.caja{
+    margin-top: 90px;
+    height: 60vh;
+}
+
+.contenido .text h2{
+    color: #85b448;
+    font-size: 40px;
+}
+
+.imagen1{
+    background-image: url(/Anuncios/img/educado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen2{
+    background-image: url(/Anuncios/img/Gatoo-baño.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen3{
+    background-image: url(/Anuncios/img/Canto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen4{
+    background-image: url(/Anuncios/img/ronroneo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen5{
+    background-image: url(/Anuncios/img/vacuna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen6{
+    background-image: url(/Anuncios/img/enfermo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Fin Contenedor 1 */
+
+
+/* Footer */
+
+footer{
+    background-color: rgba(33,45,41,1) !important;
+}
+
+.face{
+    color: rgb(36, 76, 253);
+    font-size: 30px;
+}
+
+.letra{
+    color: white;
+    font-size: 18px;
+}
+
+.inst{
+    color: rgba(212,47,108,1);
+    font-size: 30px;
+    
+}
+
+.wp{
+    color: #47C254;
+    font-size: 30px;
+}
+
+/* Fin footer */
+
+/* Responsive */
+ 
+@media (max-width : 768px) {
+
+    .imagen-fondo .centro p{
+        display: flex;
+        display: none;
+    }
+
+    .tex{
+        height: 80vh;
+    }
+}
+/* Fin Responsive */

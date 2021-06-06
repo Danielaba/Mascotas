@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/6246293a11.js" crossorigin="anonymous"></script>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Registro/Macotas</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper navegador">
+            <a href="#!" class="brand-logo"><i class="fas fa-paw"></i> Pets</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fas fa-bars"></i></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="../index.html" class="opciones">Inicio</a></li>
+                <li><a href="../Adopta/adopta.html" class="opciones">Adopta</a></li>
+                <li><a href="../Anuncios/anuncios.html" class="opciones">Anuncios</a></li>
+            </ul>
+        </div>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="../index.html" class="opciones">Inicio</a></li>
+            <li><a href="../Adopta/adopta.html" class="opciones">Adopta</a></li>
+            <li><a href="../Anuncios/anuncios.html" class="opciones">Anuncios</a></li>
+        </ul> 
+
+    </nav>
+
+    <header>
+        <div class="imagen-fondo">
+            <div class="parrafo row">
+                <div class="centro col l12 s12">
+                    <h1>Contactanos!</h1>
+                    <p>Estamos para ayudarte</p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="conten-informacion">
+         <div class="container">
+            
+            <div class="general row">
+                <div class="solicitud col l8 s12">
+                    <h1 class="sol-info">Solicita Informacion!</h1>
+
+                    <div class="row">
+                        <form class="formulario col s12">
+
+                          <div class="row">
+                            <div class="input-field col s6">
+                              <input id="nombre" type="text" class="validate">
+                              <label for="first_name">Nombre</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                              <input id="apellido" type="text" class="validate">
+                              <label for="last_name">Apellido</label>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="correo" type="email" class="validate">
+                              <label for="email">Email</label>
+                            </div>
+                          </div>
+
+                          <div class="input-field col s12">
+                            <input id="cel" type="tel" class="validate">
+                            <label for="icon_telephone">Numero de contacto</label>
+                          </div>
+
+                          <div class="input-field col s12">
+                            <select>
+                              <option value=""></option>
+                              <option value="1">Gato</option>
+                              <option value="2">Perro</option>
+                              <option value="3">Pajaro</option>
+                              <option value="4">Otro</option>
+                            </select>
+                            <label>Mascota:</label>
+                          </div>
+
+
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                              <label for="textarea2">¿En qué te podemos ayudar?</label>
+                            </div>
+                          </div>
+
+
+                          <input type="submit" value="Enviar" class="boton-form">
+
+                        <div class="error" id="error"></div>
+
+                        </form>
+                      </div>
+                            
+                </div>
+
+                <div class="contacto col l4 s12">
+                    <h1>Contactanos</h1>
+                    <p>Te brindaremos apoyo en lo que estes necesitando, si tu mascota se encuantra enferma o si quieres 
+                        adoptar aguno de nuestros amigos no dudes es dejarnos tu mensaje, estamos para ayudarte y que tu
+                        ayuden a quien puede ser un apoyo para ti.<br><br></p> 
+                    <h2><i class="fas fa-mobile-alt"></i> Cel: 301 3248311</h2>
+                    <h2><i class="fas fa-phone-alt"></i> Tel: 4675370</h2>
+                    <h2><i class="fas fa-envelope"></i> Email: mascotas@gmail.com</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l12 center-align">
+              <h5 class="white-text">Angie Daniela Barreto Pulido</h5>
+              <div class="redes">
+                <div class=" col l4 s12">
+                    <i class="fab fa-facebook-f face"></i>
+                    <a class="letra" href="https://www.facebook.com/">Facebook</a>
+                </div>
+    
+                <div class=" col l4 s12">
+                    <i class="fab fa-instagram inst"></i>
+                    <a class="letra" href="https://www.instagram.com/">Intagram</a>
+                </div>
+    
+                <div class=" col l4 s12">
+                    <i class="fab fa-whatsapp wp"></i>
+                    <a class="letra" href="https://web.whatsapp.com/">301 3248311</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Actividad 5
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
